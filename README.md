@@ -1,6 +1,6 @@
 Attention-based RNN model for Spoken Language Understanding (Intent Detection & Slot Filling)
 ==================
-Tensorflow implementation of attention-based LSTM models for sequence classification and sequence labeling.
+This is a Tensorflow implementation of attention-based LSTM models for sequence classification and sequence labeling.
 
 
 
