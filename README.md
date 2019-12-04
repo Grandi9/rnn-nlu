@@ -7,6 +7,7 @@ This is the encoder-decoder model with the aligned inputs.
 ![](Extra_stuff/Image1.png)
 
 The attention based RNN model
+
 ![](Extra_stuff/Image2.png)
 
 **Reference**
