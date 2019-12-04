@@ -2,7 +2,11 @@ Attention-based RNN model for Spoken Language Understanding (Intent Detection & 
 ==================
 This is a Tensorflow implementation of attention-based LSTM models for sequence classification and sequence labeling.
 
+This is the encoder-decoder model with the aligned inputs.
 
+![](Extra_stuff/Image1.png)
+
+The attention based RNN model
 
 **Reference**
 
