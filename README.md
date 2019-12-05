@@ -19,11 +19,4 @@ This is a Tensorflow implementation of attention-based LSTM models for sequence 
 
 
 
-**Training Procedure**
-
-LSTM cell is used as the basic RNN unit in the experiments. Our LSTM implementation follows the design. Given
-the size the data set, we set the number of units in LSTM cell as 128. The default forget gate bias is set to 1. We use only
-one layer of LSTM in the proposed models, and deeper models by stacking the LSTM layers are to be explored in future work. Word embeddings of size 128 are randomly initialized and fine-tuned during mini-batch training with batch size of 16. Dropout rate 0.5 is applied to the non-recurrent connections during model training for regularization. Maximum norm for gradient clipping is set to 5. We use Adam optimization method following the suggested parameter setup.
-
-
 
