@@ -10,6 +10,12 @@ However, in intent detection, the output is not fixed.
 
 ![](Extra_stuff/Image3.png)
 
+## Encoder-Decoder: 
+Encoder and decoder are two sperate RNNs, 
+The encoder takes the whole vector as a seqeunce and gets a iutput vector c. This vector c is used in a decoder to genrate the target output sequnce.
+Whereas the RNN sequence labler can only label the i-o-b format of the input sequence.
+
+
 
 **Encoder-decoder model with the aligned inputs**
 
